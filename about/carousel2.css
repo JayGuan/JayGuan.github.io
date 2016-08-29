@@ -3,9 +3,13 @@
 /* Padding below the footer and lighter body text */
 
 body {
+margin:auto;
+    
   padding-bottom: 40px;
   color: #5a5a5a;
-
+  width: 900px;
+text-alignment:center;
+  -webkit-box-pack: center;
 }
 
 
@@ -87,8 +91,8 @@ body {
 }
 
 /* Thin out the marketing headings */
-.featurette-heading { 
-    font-weight: 300px;
+.featurette-heading {
+  font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
 }
@@ -97,6 +101,20 @@ body {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
+
+.headline {
+    margin-top: 150px;
+    text-align: center;
+    
+}
+.articles {
+    width: 900px auto;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    -webkit-box-pack: center;
+    text-align: justify;
+    font-size: 21px;
+}
 @media (min-width: 768px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
@@ -128,7 +146,6 @@ body {
   }
 }
   .container.marketing {
-
   }
 @media (min-width: 992px) {
   .featurette-heading {
