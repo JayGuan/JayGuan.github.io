@@ -97,7 +97,7 @@ body {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 .head {
-    margin-top: 7%;
+    margin-top: 6%;
 }
 @media (min-width: 768px) {
   /* Navbar positioning foo */
