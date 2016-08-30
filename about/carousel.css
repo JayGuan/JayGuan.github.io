@@ -125,16 +125,21 @@ body {
 
   .featurette-heading {
     font-size: 50px;
+      text-align: center;
   }
 }
 .head {
-    margin-top: 20%;
+    margin-top: 6%;
+}
+.lead {
+    text-align:inherit;
+    margin-top:30px;
 }
   .container.marketing {
 
   }
 @media (min-width: 992px) {
   .featurette-heading {
-    margin-top: 120px;
+    margin-top: 0px;
   }
 }
