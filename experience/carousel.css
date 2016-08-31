@@ -143,7 +143,6 @@ body {
 }
 .lead {
     text-align:inherit;
-    margin-top:30px;
 }
   .container.marketing {
 
@@ -151,6 +150,7 @@ body {
 @media (min-width: 992px) {
   .featurette-heading {
     margin-top: 0px;
+      margin-bottom: 50px;
   }
 }
 body {
@@ -160,6 +160,14 @@ body {
 p{
   color:#525252;
   font-size:14px;
+}
+.sideNote{
+	margin-bottom:15px;
+	height:35px;
+    display:block;
+    font-size: 21px;
+    font-family: inherit;
+    
 }
 
 .skillbar {
