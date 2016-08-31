@@ -33,12 +33,7 @@ body {
 .navbar-wrapper .navbar .container {
   width: auto;
 }
-.top {
-    width:100%;
-}
-.container {
-    
-}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -97,10 +92,6 @@ body {
   line-height: 1;
   letter-spacing: -1px;
 }
-.skillTitle {
-      font-weight: 300px;
-  line-height: 1;
-}
 
 
 /* RESPONSIVE CSS
@@ -139,10 +130,10 @@ body {
 }
 .head {
     margin-top: 6%;
-    width:80%;
 }
 .lead {
     text-align:inherit;
+    margin-top:30px;
 }
   .container.marketing {
 
@@ -150,16 +141,7 @@ body {
 @media (min-width: 992px) {
   .featurette-heading {
     margin-top: 0px;
-      margin-bottom: 50px;
   }
-}
-body {
-  font-family: 'Ubuntu', sans-serif;
-}
-
-p{
-  color:#525252;
-  font-size:14px;
 }
 .sideNote{
 	margin-bottom:15px;
