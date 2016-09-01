@@ -150,6 +150,13 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
+    
+    .featurette-heading-title{
+        font-size: 50px;
+        margin-top: auto;
+        font-weight: bold;
+        
+    }
 }
   .container.marketing {
 
